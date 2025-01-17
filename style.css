@@ -1,7 +1,7 @@
 /* Custom properties for colors and other variables */
 :root {
-    --primary-color: #4CAF50; /* Green */
-    --secondary-color: #03A9F4; /* Light Blue */
+    --primary-color: #aa6c6c; /* Green */
+    --secondary-color: #000000; /* Light Blue */
     --text-color: #333;
     --text-light: #eee;
     --bg-color: #f0f0f0;
@@ -143,9 +143,9 @@ header nav ul li a:hover {
    max-width: 80%;
 }
 
-.grid-servicios {
+.grid-servicios-2x3 {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     margin-top: 20px;
     max-width: 1200px; /* Added max-width to prevent excessive stretching on very large screens */
@@ -388,7 +388,7 @@ footer .container {
         max-width: 90%;
     }
 
-    .grid-servicios {
+    .grid-servicios-2x3 {
       grid-template-columns: 1fr;
     }
     .grid-productos{

@@ -91,6 +91,8 @@ header nav ul li a:hover {
     box-shadow: var(--glass-shadow);
     backdrop-filter: blur(10px); /* Main glass effect */
     max-width: 90%; /* Ensuring it doesn't overflow on smaller screens */
+     display: flex;
+     flex-direction: column; /*Ensuring the content gets correctly placed */
 }
 
 
@@ -254,7 +256,7 @@ header nav ul li a:hover {
 .boton,
 #contacto button {
     display: inline-block;
-    padding: 12px 25px;
+    padding: 10px 20px; /* Reduced padding for smaller buttons */
     background-color: var(--primary-color);
     color: var(--text-light);
     text-decoration: none;
@@ -262,7 +264,7 @@ header nav ul li a:hover {
     transition: background-color var(--transition-duration);
     border: none;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 0.9rem;  /* Reduced font-size for smaller buttons */
     font-weight: 600;
 }
 
@@ -309,7 +311,6 @@ footer .container {
      text-align: center;
 }
 
-
 .pagina-servicio h2 {
      margin-bottom: 20px;
     font-size: 2rem;
@@ -325,11 +326,21 @@ footer .container {
 .pagina-servicio ul{
     margin: 20px 0;
     padding-left: 30px;
+     text-align: left; /* Ensures the lists are aligned to the left */
 }
 
 .pagina-servicio li {
     margin-bottom: 10px;
+     text-align: left; /* Ensures list items are aligned to the left */
 }
+/*Buttons styling inside the services page*/
+.pagina-servicio .boton-container{
+    display: flex; /*Enable the flex*/
+    justify-content: center; /*Center the container horizontally*/
+    gap: 10px; /*Gives space between the buttons*/
+    margin-top: 15px;
+}
+
 /* Product Grid */
 .grid-productos {
     display: grid;

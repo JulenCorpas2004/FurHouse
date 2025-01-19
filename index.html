@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FurHouse: Encuentra o Da un Hogar Lleno de Amor</title>
+    <title>FurHouse</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/logo_FurHouse.png" type="image/x-icon">
 </head>
 <body>
     <header>
         <div class="container">
-            <img src="assets/logo_FurHouse.png" alt="Logo FurHouse" style="width: 120px">
+            <a href="index.html">
+                <img src="assets/logo_FurHouse.png" alt="Logo FurHouse" style="width: 100px">
+            </a>
             <nav>
                 <ul>
                     <li><a href="#servicios">Servicios</a></li>
@@ -23,9 +25,12 @@
 
     <section id="hero">
         <div class="container glass-container">
-            <h2>Encuentra o Da un hogar lleno de amor</h2>
+            <h2>FurHouse: Cuidar, acoger, adoptar. Tú eliges, ellos ganan.</h2>
+            <br><br>
             <p>Conectamos animales necesitados con personas y organizaciones comprometidas a través de acogida temporal, adopción y apoyo solidario.</p>
             <div class="botones-hero">
+                <h3>Acoge con el corazón, adopta con la razón.</h3>
+                <br>
                 <a href="hogar-temporal.html" class="boton">Quiero Acoger</a>
                 <a href="adopcion.html" class="boton">Quiero Adoptar</a>
                 <a href="solidario.html" class="boton">Quiero Ayudar</a>
@@ -41,37 +46,37 @@
                    <img src="assets/acoger.png" alt="Icono Acogida">
                     <h3>Hogar Temporal FurHouse</h3>
                     <p>Brinda un hogar temporal a un animal necesitado hasta que encuentre su familia definitiva. Sin coste para ti.</p>
-                    <a href="hogar-temporal.html" class="boton-servicio">Más Información</a>
+                    <a href="hogar-temporal.html" class="boton-servicio">Más información</a>
                 </div>
                 <div class="servicio glass-container">
                     <img src="assets/adoptar.png" alt="Icono Adopción">
                     <h3>Adopta con FurHouse</h3>
                     <p>Encuentra a tu compañero de vida perfecto. Descubre los animales que buscan un hogar lleno de amor.</p>
-                    <a href="adopcion.html" class="boton-servicio">Más Información</a>
+                    <a href="adopcion.html" class="boton-servicio">Más información</a>
                 </div>
                 <div class="servicio glass-container">
                     <img src="assets/solidario.png" alt="Icono Solidario">
                     <h3>FurHouse Solidario</h3>
                     <p>Tu donación o patrocinio hace posible nuestro trabajo. Contribuye al bienestar de los animales necesitados.</p>
-                    <a href="solidario.html" class="boton-servicio">Más Información</a>
+                    <a href="solidario.html" class="boton-servicio">Más información</a>
                 </div>
                  <div class="servicio glass-container">
                     <img src="assets/academia.png" alt="Icono Academia">
                     <h3>FurHouse Academy</h3>
                     <p>Prepárate para recibir a tu nuevo compañero con nuestros talleres y recursos.</p>
-                    <a href="academia.html" class="boton-servicio">Más Información</a>
+                    <a href="academia.html" class="boton-servicio">Más información</a>
                 </div>
                 <div class="servicio glass-container">
                     <img src="assets/animales.png" alt="Icono Friends">
                     <h3>FurHouse Friends</h3>
-                    <p>¿Necesitas cuidar de tu mascota? Nuestro servicio genera ingresos para la protectora.</p>
-                    <a href="friends.html" class="boton-servicio">Más Información</a>
+                    <p>¿Necesitas que alguien cuide de tu mascota? Nuestro servicio genera ingresos para la protectora.</p>
+                    <a href="friends.html" class="boton-servicio">Más información</a>
                 </div>
                 <div class="servicio glass-container">
-                    <img src="assets/adoptar.png" alt="Icono Shop">
+                    <img src="assets/shop.jpg" alt="Icono Shop" style="border-radius: 50%">
                     <h3>FurHouse Shop</h3>
                     <p>Muestra tu apoyo y lleva contigo un recuerdo de nuestra misión.</p>
-                    <a href="shop.html" class="boton-servicio">Más Información</a>
+                    <a href="shop.html" class="boton-servicio">Más información</a>
                 </div>
             </div>
         </div>
@@ -79,8 +84,12 @@
 
     <section id="sobre-nosotros">
         <div class="container glass-container">
-            <h2>Sobre Nosotros</h2>
-            <p>FurHouse es una plataforma dedicada a conectar animales necesitados con personas y organizaciones que desean brindarles un hogar, ya sea temporal o definitivo. Trabajamos en colaboración con protectoras para asegurar el bienestar animal y promover la adopción responsable.</p>
+            <h2>Sobre nosotros</h2>
+            <p>FurHouse es una plataforma dedicada a conectar animales necesitados con personas y organizaciones que
+                desean brindarles un hogar, ya sea temporal o definitivo. Trabajamos en colaboración con protectoras
+                para asegurar el bienestar animal y promover la adopción responsable.</p>
+            <br>
+            <h3>Tu casa, su esperanza: FurHouse.</h3>
         </div>
     </section>
 
@@ -88,11 +97,12 @@
         <div class="container glass-container">
             <h2>Contacto</h2>
             <p>¿Tienes alguna pregunta? No dudes en contactarnos.</p>
+            <br>
             <form action="#" method="post">
-                <input type="text" name="nombre" placeholder="Tu Nombre" required>
-                <input type="email" name="email" placeholder="Tu Correo Electrónico" required>
-                <textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required></textarea>
-                <button type="submit" class="boton">Enviar Mensaje</button>
+                <input type="text" name="nombre" placeholder="Tu nombre" required>
+                <input type="email" name="email" placeholder="Tu correo electrónico" required>
+                <textarea name="mensaje" placeholder="Tu mensaje" rows="5" required></textarea>
+                <button type="submit" class="boton">Enviar mensaje</button>
             </form>
         </div>
     </section>
